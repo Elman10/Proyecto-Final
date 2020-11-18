@@ -4,4 +4,5 @@ public class Prueba_2 {
 	
 	private int aux = 0;
 	private String Resiva;
+	private String Sereno;
 }
