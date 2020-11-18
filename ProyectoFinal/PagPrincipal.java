@@ -1,5 +1,3 @@
-package Visual;
-
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -7,7 +5,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-public class pgPrincipal extends JFrame {
+public class PagPrincipal extends JFrame {
 
 	private JPanel contentPane;
 
@@ -18,7 +16,7 @@ public class pgPrincipal extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					pgPrincipal frame = new pgPrincipal();
+					PagPrincipal frame = new PagPrincipal();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -30,7 +28,7 @@ public class pgPrincipal extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public pgPrincipal() {
+	public PagPrincipal() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
